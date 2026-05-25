@@ -110,5 +110,3 @@ streamlit run app.py
 - Conecte computador e celular na mesma rede Wi-Fi.
 - Abra no celular a URL de rede exibida pelo Streamlit, por exemplo `http://192.168.x.x:8501`.
 - Permita o acesso a camera e fotografe o codigo de barras com boa luz.
-
-O app consulta produtos escaneados pela API gratuita da Open Food Facts. Se o codigo nao estiver cadastrado ou se a internet falhar, ainda e possivel pesquisar pelo nome/marca no CSV local. A analise usa um mock local de IA generativa, entao nao precisa de Ollama, token ou credito de API.
